@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CloudPSS 潮流计算可视化</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    table thead th { white-space: nowrap; }
+    .scroll-x { overflow-x: auto; }
+    .actions { display:flex; gap:.75rem; flex-wrap: wrap; align-items: center; }
+  </style>
+</head>
+<body class="container">
+  <h2>CloudPSS 潮流计算可视化</h2>
+
+  <form id="pfForm" class="grid">
+    <label>模型 RID
+      <input name="rid" type="text" value="{{ rid }}" placeholder="model/CloudPSS/IEEE3" />
+    </label>
+    <div class="actions">
+      <button type="submit">运行潮流计算</button>
+      <button type="button" id="dlBuses">下载 Buses CSV</button>
+      <button type="button" id="dlBranches">下载 Branches CSV</button>
+    </div>
+  </form>
+
+  <article class="mono" id="status">（请先点击“运行潮流计算”）</article>
+
+  <h3>节点电压表（Buses）</h3>
+  <div class="scroll-x"><table id="buses" role="grid"></table></div>
+
+  <h3>支路功率表（Branches）</h3>
+  <div class="scroll-x"><table id="branches" role="grid"></table></div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
