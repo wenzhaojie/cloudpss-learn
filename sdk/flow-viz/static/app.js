@@ -1,6 +1,14 @@
 async function runPowerFlow(rid) {
   const status = document.getElementById('status');
+  const dlBuses = document.getElementById('dlBuses');
+  const dlBranches = document.getElementById('dlBranches');
+  const runBtn = document.getElementById('runBtn');
+
   status.textContent = '⏳ 提交任务中...';
+  runBtn.disabled = true;
+  dlBuses.disabled = true;
+  dlBranches.disabled = true;
+
   try {
     const resp = await fetch('/api/powerflow?rid=' + encodeURIComponent(rid));
     if (!resp.ok) {
@@ -18,8 +26,14 @@ async function runPowerFlow(rid) {
 
     renderTable('buses', data.buses.headers, data.buses.rows);
     renderTable('branches', data.branches.headers, data.branches.rows);
+
+    // 只有有结果后才允许下载
+    dlBuses.disabled = !(data.buses && data.buses.rows && data.buses.rows.length);
+    dlBranches.disabled = !(data.branches && data.branches.rows && data.branches.rows.length);
   } catch (e) {
     status.textContent = '❌ 异常：' + e.message;
+  } finally {
+    runBtn.disabled = false;
   }
 }
 
@@ -43,7 +57,7 @@ document.getElementById('pfForm').addEventListener('submit', (e) => {
   runPowerFlow(rid);
 });
 
-// CSV 下载：点击时直接请求后端导出接口（不再自动运行）
+// CSV 下载按钮
 document.getElementById('dlBuses').addEventListener('click', () => {
   const rid = document.querySelector('input[name="rid"]').value || 'model/CloudPSS/IEEE3';
   const url = '/api/export/csv?table=buses&rid=' + encodeURIComponent(rid);
@@ -55,5 +69,12 @@ document.getElementById('dlBranches').addEventListener('click', () => {
   window.open(url, '_blank');
 });
 
-// 注意：不再在页面加载时自动调用 runPowerFlow()
-// 这样就不会“一启动 Python 就自动去计算了”
+// 清空结果
+document.getElementById('clear').addEventListener('click', () => {
+  document.getElementById('status').textContent = '';
+  document.getElementById('buses').innerHTML = '';
+  document.getElementById('branches').innerHTML = '';
+  // 清空后禁用下载
+  document.getElementById('dlBuses').disabled = true;
+  document.getElementById('dlBranches').disabled = true;
+});

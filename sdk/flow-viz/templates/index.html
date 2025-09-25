@@ -20,9 +20,10 @@
       <input name="rid" type="text" value="{{ rid }}" placeholder="model/CloudPSS/IEEE3" />
     </label>
     <div class="actions">
-      <button type="submit">运行潮流计算</button>
-      <button type="button" id="dlBuses">下载 Buses CSV</button>
-      <button type="button" id="dlBranches">下载 Branches CSV</button>
+      <button type="submit" id="runBtn">运行潮流计算</button>
+      <button type="button" id="dlBuses" disabled>下载 Buses CSV</button>
+      <button type="button" id="dlBranches" disabled>下载 Branches CSV</button>
+      <button type="button" id="clear">清空结果</button>
     </div>
   </form>
 
