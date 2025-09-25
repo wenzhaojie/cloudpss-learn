@@ -141,5 +141,5 @@ def export_csv():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    # 打开 http://127.0.0.1:5000
-    app.run(host="127.0.0.1", port=5000, debug=True)
+    # 临时自签证书（adhoc），首次需要 `pip install cryptography`
+    app.run(host="127.0.0.1", port=5000, debug=True, ssl_context="adhoc")
