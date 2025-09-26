@@ -1,0 +1,2085 @@
+{
+  "components": {
+    "/canvas_0_1000": {
+      "label": "NC-6",
+      "args": {
+        "Name": ""
+      },
+      "pins": {
+        "0": "43"
+      },
+      "definition": "model/CloudPSS/ElectricalLable",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/ElectricalLable"
+    },
+    "/canvas_0_1002": {
+      "label": "NC-7",
+      "args": {
+        "Name": ""
+      },
+      "pins": {
+        "0": "44"
+      },
+      "definition": "model/CloudPSS/ElectricalLable",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/ElectricalLable"
+    },
+    "/canvas_0_1004": {
+      "label": "newConstant-16",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "45"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_1006": {
+      "label": "newConstant-17",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "46"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_1008": {
+      "label": "STEAM_GOV_1-4",
+      "args": {
+        "DB": "0",
+        "Kg": "6",
+        "TSR": "0",
+        "TSM": "0.075",
+        "P_up": "0.6786",
+        "P_down": "-1",
+        "Cmax": "0.9",
+        "Cmin": "0"
+      },
+      "pins": {
+        "0": "48",
+        "1": "51",
+        "2": "1",
+        "3": "2",
+        "4": "47"
+      },
+      "definition": "model/CloudPSS/_STEAM_GOV_1",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_STEAM_GOV_1"
+    },
+    "/canvas_0_1009": {
+      "label": "STEAM_TUR_1-4",
+      "args": {
+        "K1": "0.2",
+        "K3": "0.4",
+        "K5": "0.4",
+        "K7": "0",
+        "K2": "0",
+        "K4": "0",
+        "K6": "0",
+        "K8": "0",
+        "T4": "0.3",
+        "T5": "10",
+        "T6": "0.6",
+        "T7": "0"
+      },
+      "pins": {
+        "0": "47",
+        "1": "1",
+        "2": "52",
+        "3": "3",
+        "4": "2",
+        "5": "48",
+        "6": "49",
+        "7": "50",
+        "8": "4"
+      },
+      "definition": "model/CloudPSS/_STEAM_TUR_1",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_STEAM_TUR_1"
+    },
+    "/canvas_0_1012": {
+      "label": "NC-8",
+      "args": {
+        "Name": ""
+      },
+      "pins": {
+        "0": "49"
+      },
+      "definition": "model/CloudPSS/ElectricalLable",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/ElectricalLable"
+    },
+    "/canvas_0_1014": {
+      "label": "NC-9",
+      "args": {
+        "Name": ""
+      },
+      "pins": {
+        "0": "50"
+      },
+      "definition": "model/CloudPSS/ElectricalLable",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/ElectricalLable"
+    },
+    "/canvas_0_1016": {
+      "label": "newConstant-18",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "51"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_1018": {
+      "label": "newConstant-19",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "52"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_1020": {
+      "label": "newChannel-1",
+      "args": {
+        "Name": "#wr1",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "1"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1022": {
+      "label": "newChannel-2",
+      "args": {
+        "Name": "#wr2",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "5"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1023": {
+      "label": "newChannel-3",
+      "args": {
+        "Name": "#wr3",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "6"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1024": {
+      "label": "newChannel-4",
+      "args": {
+        "Name": "#P2",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "7"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1025": {
+      "label": "newChannel-5",
+      "args": {
+        "Name": "#Q2",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "8"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1026": {
+      "label": "newChannel-6",
+      "args": {
+        "Name": "#P1",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "9"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1027": {
+      "label": "newChannel-7",
+      "args": {
+        "Name": "#Q1",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "10"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1028": {
+      "label": "newChannel-8",
+      "args": {
+        "Name": "#P3",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "11"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1029": {
+      "label": "newChannel-9",
+      "args": {
+        "Name": "#Q3",
+        "Dim": "1"
+      },
+      "pins": {
+        "0": "12"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1035": {
+      "label": "newVoltageMeter-1",
+      "args": {
+        "Dim": "3",
+        "V": "#index_13"
+      },
+      "pins": {
+        "0": "15"
+      },
+      "definition": "model/CloudPSS/_NewVoltageMeter",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_NewVoltageMeter"
+    },
+    "/canvas_0_1042": {
+      "label": "newChannel-13",
+      "args": {
+        "Name": "vac",
+        "Dim": "3"
+      },
+      "pins": {
+        "0": "13"
+      },
+      "definition": "model/CloudPSS/_newChannel",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newChannel"
+    },
+    "/canvas_0_1054": {
+      "label": "newBus_3p-1",
+      "args": {
+        "Name": "Bus2",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "8.092582389805873",
+        "V": "1",
+        "VBase": "18",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "14"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1060": {
+      "label": "newBus_3p-2",
+      "args": {
+        "Name": "Bus7",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "2.701412491933567",
+        "V": "0.9978193589997648",
+        "VBase": "525",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "15"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1065": {
+      "label": "TLine_3p-1",
+      "args": {
+        "Name": "tline5",
+        "Freq": "50",
+        "Length": "1",
+        "ParamFormat": "0",
+        "Zero": "1",
+        "LongLineCorrection": "0",
+        "ModelType": "0",
+        "Decoupled": "-1",
+        "Decoupled_Multimachine": "-1",
+        "NIM": "1",
+        "Vbase": "525",
+        "Sbase": "100",
+        "R1pu": "0.0085",
+        "X1pu": "0.0576",
+        "B1pu": "0.149",
+        "R0pu": "6.86e-7",
+        "X0pu": "0.0000025",
+        "B0pu": "0.00000123",
+        "R1": "0.0153",
+        "Xl1": "0.289",
+        "Xc1": "0.2528",
+        "R0": "0.2885",
+        "Xl0": "1.069",
+        "Xc0": "0.4024",
+        "Irated": "0",
+        "Is": "",
+        "Ir": "",
+        "Isrms": "",
+        "Irrms": "",
+        "Ps": "",
+        "Qs": "",
+        "Pr": "",
+        "Qr": "",
+        "Ploss": "",
+        "Qloss": ""
+      },
+      "pins": {
+        "0": "15",
+        "1": "16"
+      },
+      "definition": "model/CloudPSS/TransmissionLine",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/TransmissionLine",
+      "status": "type end"
+    },
+    "/canvas_0_1068": {
+      "label": "TLine_3p-2",
+      "args": {
+        "Name": "tline3",
+        "Freq": "50",
+        "Length": "1",
+        "ParamFormat": "0",
+        "Zero": "1",
+        "LongLineCorrection": "0",
+        "ModelType": "0",
+        "Decoupled": "-1",
+        "Decoupled_Multimachine": "-1",
+        "NIM": "1",
+        "Vbase": "525",
+        "Sbase": "100",
+        "R1pu": "0.032",
+        "X1pu": "0.161",
+        "B1pu": "0.306",
+        "R0pu": "6.86e-7",
+        "X0pu": "0.0000025",
+        "B0pu": "0.00000123",
+        "R1": "0.0153",
+        "Xl1": "0.289",
+        "Xc1": "0.2528",
+        "R0": "0.2885",
+        "Xl0": "1.069",
+        "Xc0": "0.4024",
+        "Irated": "0",
+        "Is": "",
+        "Ir": "",
+        "Isrms": "",
+        "Irrms": "",
+        "Ps": "",
+        "Qs": "",
+        "Pr": "",
+        "Qr": "",
+        "Ploss": "",
+        "Qloss": ""
+      },
+      "pins": {
+        "0": "19",
+        "1": "15"
+      },
+      "definition": "model/CloudPSS/TransmissionLine",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/TransmissionLine",
+      "status": "type end"
+    },
+    "/canvas_0_1071": {
+      "label": "TLine_3p-3",
+      "args": {
+        "Name": "tline6",
+        "Freq": "50",
+        "Length": "1",
+        "ParamFormat": "0",
+        "Zero": "1",
+        "LongLineCorrection": "0",
+        "ModelType": "0",
+        "Decoupled": "-1",
+        "Decoupled_Multimachine": "-1",
+        "NIM": "1",
+        "Vbase": "525",
+        "Sbase": "100",
+        "R1pu": "0.0119",
+        "X1pu": "0.1008",
+        "B1pu": "0.209",
+        "R0pu": "6.86e-7",
+        "X0pu": "0.0000025",
+        "B0pu": "0.00000123",
+        "R1": "0.0153",
+        "Xl1": "0.289",
+        "Xc1": "0.2528",
+        "R0": "0.2885",
+        "Xl0": "1.069",
+        "Xc0": "0.4024",
+        "Irated": "0",
+        "Is": "",
+        "Ir": "",
+        "Isrms": "",
+        "Irrms": "",
+        "Ps": "",
+        "Qs": "",
+        "Pr": "",
+        "Qr": "",
+        "Ploss": "",
+        "Qloss": ""
+      },
+      "pins": {
+        "0": "16",
+        "1": "17"
+      },
+      "definition": "model/CloudPSS/TransmissionLine",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/TransmissionLine",
+      "status": "type end"
+    },
+    "/canvas_0_1074": {
+      "label": "TLine_3p-4",
+      "args": {
+        "Name": "tline4",
+        "Freq": "50",
+        "Length": "1",
+        "ParamFormat": "0",
+        "Zero": "1",
+        "LongLineCorrection": "0",
+        "ModelType": "0",
+        "Decoupled": "-1",
+        "Decoupled_Multimachine": "-1",
+        "NIM": "1",
+        "Vbase": "525",
+        "Sbase": "100",
+        "R1pu": "0.039",
+        "X1pu": "0.1738",
+        "B1pu": "0.358",
+        "R0pu": "6.86e-7",
+        "X0pu": "0.0000025",
+        "B0pu": "0.00000123",
+        "R1": "0.0153",
+        "Xl1": "0.289",
+        "Xc1": "0.2528",
+        "R0": "0.2885",
+        "Xl0": "1.069",
+        "Xc0": "0.4024",
+        "Irated": "0",
+        "Is": "",
+        "Ir": "",
+        "Isrms": "",
+        "Irrms": "",
+        "Ps": "",
+        "Qs": "",
+        "Pr": "",
+        "Qr": "",
+        "Ploss": "",
+        "Qloss": ""
+      },
+      "pins": {
+        "0": "20",
+        "1": "17"
+      },
+      "definition": "model/CloudPSS/TransmissionLine",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/TransmissionLine",
+      "status": "type end"
+    },
+    "/canvas_0_1077": {
+      "label": "TLine_3p-5",
+      "args": {
+        "Name": "tline1",
+        "Freq": "50",
+        "Length": "1",
+        "ParamFormat": "0",
+        "Zero": "1",
+        "LongLineCorrection": "0",
+        "ModelType": "0",
+        "Decoupled": "-1",
+        "Decoupled_Multimachine": "-1",
+        "NIM": "1",
+        "Vbase": "525",
+        "Sbase": "100",
+        "R1pu": "0.01",
+        "X1pu": "0.068",
+        "B1pu": "0.176",
+        "R0pu": "6.86e-7",
+        "X0pu": "0.0000025",
+        "B0pu": "0.00000123",
+        "R1": "0.0153",
+        "Xl1": "0.289",
+        "Xc1": "0.2528",
+        "R0": "0.2885",
+        "Xl0": "1.069",
+        "Xc0": "0.4024",
+        "Irated": "0",
+        "Is": "",
+        "Ir": "",
+        "Isrms": "",
+        "Irrms": "",
+        "Ps": "",
+        "Qs": "",
+        "Pr": "",
+        "Qr": "",
+        "Ploss": "",
+        "Qloss": ""
+      },
+      "pins": {
+        "0": "19",
+        "1": "21"
+      },
+      "definition": "model/CloudPSS/TransmissionLine",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/TransmissionLine",
+      "status": "type end"
+    },
+    "/canvas_0_1080": {
+      "label": "TLine_3p-6",
+      "args": {
+        "Name": "tline2",
+        "Freq": "50",
+        "Length": "1",
+        "ParamFormat": "0",
+        "Zero": "1",
+        "LongLineCorrection": "0",
+        "ModelType": "0",
+        "Decoupled": "-1",
+        "Decoupled_Multimachine": "-1",
+        "NIM": "1",
+        "Vbase": "525",
+        "Sbase": "100",
+        "R1pu": "0.017",
+        "X1pu": "0.092",
+        "B1pu": "0.158",
+        "R0pu": "6.86e-7",
+        "X0pu": "0.0000025",
+        "B0pu": "0.00000123",
+        "R1": "0.0153",
+        "Xl1": "0.289",
+        "Xc1": "0.2528",
+        "R0": "0.2885",
+        "Xl0": "1.069",
+        "Xc0": "0.4024",
+        "Irated": "0",
+        "Is": "",
+        "Ir": "",
+        "Isrms": "",
+        "Irrms": "",
+        "Ps": "",
+        "Qs": "",
+        "Pr": "",
+        "Qr": "",
+        "Ploss": "",
+        "Qloss": ""
+      },
+      "pins": {
+        "0": "21",
+        "1": "20"
+      },
+      "definition": "model/CloudPSS/TransmissionLine",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/TransmissionLine",
+      "status": "type end"
+    },
+    "/canvas_0_1083": {
+      "label": "newExpLoad-1",
+      "args": {
+        "Name": "",
+        "v": "525",
+        "f": "50",
+        "p": "125",
+        "q": "50",
+        "NP": "2",
+        "NQ": "2",
+        "KPF": "0",
+        "KQF": "0",
+        "Vi": "0.9633408493914456",
+        "NIM": "1",
+        "Iname": "",
+        "Irmsname": "",
+        "Pname": "",
+        "Qname": ""
+      },
+      "pins": {
+        "0": "19"
+      },
+      "definition": "model/CloudPSS/_newExpLoad_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newExpLoad_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1084": {
+      "label": "newExpLoad-2",
+      "args": {
+        "Name": "",
+        "v": "525",
+        "f": "50",
+        "p": "100",
+        "q": "35",
+        "NP": "2",
+        "NQ": "2",
+        "KPF": "0",
+        "KQF": "0",
+        "Vi": "0.9878295983366676",
+        "NIM": "1",
+        "Iname": "",
+        "Irmsname": "",
+        "Pname": "",
+        "Qname": ""
+      },
+      "pins": {
+        "0": "16"
+      },
+      "definition": "model/CloudPSS/_newExpLoad_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newExpLoad_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1085": {
+      "label": "newExpLoad-3",
+      "args": {
+        "Name": "",
+        "v": "525",
+        "f": "50",
+        "p": "90",
+        "q": "30",
+        "NP": "2",
+        "NQ": "2",
+        "KPF": "0",
+        "KQF": "0",
+        "Vi": "0.9763401651351812",
+        "NIM": "1",
+        "Iname": "",
+        "Irmsname": "",
+        "Pname": "",
+        "Qname": ""
+      },
+      "pins": {
+        "0": "20"
+      },
+      "definition": "model/CloudPSS/_newExpLoad_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newExpLoad_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1087": {
+      "label": "newTransformer_3p2w-1",
+      "args": {
+        "Name": "Trans2",
+        "Tmva": "100",
+        "V1": "18",
+        "V2": "525",
+        "f": "50",
+        "YD1": "0",
+        "YD2": "0",
+        "Lead": "-1",
+        "Rn1": "0.01",
+        "Rn2": "0.01",
+        "Xl": "0.0625",
+        "Rl": "0",
+        "Gm": "0",
+        "Im1": "0.4",
+        "Tap": "0",
+        "InitTap": "1",
+        "NIM": "1",
+        "Enab": "0",
+        "Sat": "-1",
+        "Xac": "0.2",
+        "Tdc": "0",
+        "Xknee": "1.17",
+        "Txk": "0",
+        "I1": "",
+        "I1p": "",
+        "I2": "",
+        "I2p": "",
+        "I1rms": "",
+        "I2rms": "",
+        "P1": "",
+        "Q1": "",
+        "P2": "",
+        "Q2": "",
+        "Im": "",
+        "Flux": ""
+      },
+      "pins": {
+        "0": "14",
+        "1": "15",
+        "4": "",
+        "5": ""
+      },
+      "definition": "model/CloudPSS/_newTransformer_3p2w",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newTransformer_3p2w",
+      "status": "type end"
+    },
+    "/canvas_0_1088": {
+      "label": "newBus_3p-3",
+      "args": {
+        "Name": "Bus8",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "0.32391356077319644",
+        "V": "0.9878295983366676",
+        "VBase": "525",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "16"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1089": {
+      "label": "newBus_3p-4",
+      "args": {
+        "Name": "Bus9",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "1.8733297435435357",
+        "V": "1.0041895461923338",
+        "VBase": "525",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "17"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1090": {
+      "label": "newBus_3p-5",
+      "args": {
+        "Name": "Bus3",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "4.883887197448028",
+        "V": "1",
+        "VBase": "13.8",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "18"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1091": {
+      "label": "newBus_3p-6",
+      "args": {
+        "Name": "Bus5",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "-4.510454484153031",
+        "V": "0.9633408493914456",
+        "VBase": "525",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "19"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1092": {
+      "label": "newBus_3p-7",
+      "args": {
+        "Name": "Bus6",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "-4.2169585298731445",
+        "V": "0.9763401651351812",
+        "VBase": "525",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "20"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1093": {
+      "label": "newBus_3p-8",
+      "args": {
+        "Name": "Bus4",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "-2.6564992322409577",
+        "V": "0.9875927726679048",
+        "VBase": "525",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "21"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1094": {
+      "label": "newBus_3p-9",
+      "args": {
+        "Name": "Bus1",
+        "Freq": "50",
+        "RampingTime": "0.06",
+        "Theta": "0",
+        "V": "1",
+        "VBase": "16.5",
+        "Vabc": "",
+        "Vrms": ""
+      },
+      "pins": {
+        "0": "22"
+      },
+      "definition": "model/CloudPSS/_newBus_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newBus_3p",
+      "status": "type end"
+    },
+    "/canvas_0_1095": {
+      "label": "newTransformer_3p2w-2",
+      "args": {
+        "Name": "Trans3",
+        "Tmva": "100",
+        "V1": "525",
+        "V2": "13.8",
+        "f": "50",
+        "YD1": "0",
+        "YD2": "0",
+        "Lead": "-1",
+        "Rn1": "0.01",
+        "Rn2": "0.01",
+        "Xl": "0.0586",
+        "Rl": "0",
+        "Gm": "0",
+        "Im1": "0.4",
+        "Tap": "0",
+        "InitTap": "1",
+        "NIM": "1",
+        "Enab": "0",
+        "Sat": "-1",
+        "Xac": "0.2",
+        "Tdc": "0",
+        "Xknee": "1.17",
+        "Txk": "0",
+        "I1": "",
+        "I1p": "",
+        "I2": "",
+        "I2p": "",
+        "I1rms": "",
+        "I2rms": "",
+        "P1": "",
+        "Q1": "",
+        "P2": "",
+        "Q2": "",
+        "Im": "",
+        "Flux": ""
+      },
+      "pins": {
+        "0": "17",
+        "1": "18",
+        "4": "",
+        "5": ""
+      },
+      "definition": "model/CloudPSS/_newTransformer_3p2w",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newTransformer_3p2w",
+      "status": "type end"
+    },
+    "/canvas_0_1096": {
+      "label": "newTransformer_3p2w-3",
+      "args": {
+        "Name": "Trans1",
+        "Tmva": "100",
+        "V1": "525",
+        "V2": "16.5",
+        "f": "50",
+        "YD1": "0",
+        "YD2": "0",
+        "Lead": "-1",
+        "Rn1": "0.01",
+        "Rn2": "0.01",
+        "Xl": "0.0576",
+        "Rl": "0",
+        "Gm": "0",
+        "Im1": "0.4",
+        "Tap": "0",
+        "InitTap": "1",
+        "NIM": "1",
+        "Enab": "0",
+        "Sat": "-1",
+        "Xac": "0.2",
+        "Tdc": "0",
+        "Xknee": "1.17",
+        "Txk": "0",
+        "I1": "",
+        "I1p": "",
+        "I2": "",
+        "I2p": "",
+        "I1rms": "",
+        "I2rms": "",
+        "P1": "",
+        "Q1": "",
+        "P2": "",
+        "Q2": "",
+        "Im": "",
+        "Flux": ""
+      },
+      "pins": {
+        "0": "21",
+        "1": "22",
+        "4": "",
+        "5": ""
+      },
+      "definition": "model/CloudPSS/_newTransformer_3p2w",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newTransformer_3p2w",
+      "status": "type end"
+    },
+    "/canvas_0_1150": {
+      "label": "newFaultResistance_3p-1",
+      "args": {
+        "Name": "",
+        "Init": "1000000000",
+        "fs": "3",
+        "fe": "3.1",
+        "chg": "0.01",
+        "ft": "1",
+        "fct": "0",
+        "I": "",
+        "V": ""
+      },
+      "pins": {
+        "0": "0",
+        "1": "16"
+      },
+      "definition": "model/CloudPSS/_newFaultResistor_3p",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newFaultResistor_3p"
+    },
+    "/canvas_0_1152": {
+      "label": "newGND-2",
+      "args": {
+        "Name": ""
+      },
+      "pins": {
+        "0": "0"
+      },
+      "definition": "model/CloudPSS/GND",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/GND"
+    },
+    "/canvas_0_757": {
+      "label": "SyncGen-1",
+      "args": {
+        "Name": "Gen2",
+        "P": "4",
+        "Smva": "325",
+        "V": "10.392304845413264",
+        "freq": "50",
+        "R0": "10000",
+        "ParamType": "0",
+        "ModelType": "0",
+        "NIM": "1",
+        "Rs": "0.000301",
+        "Xls": "0",
+        "Xq": "0.283875",
+        "Xd": "0.283875",
+        "Rfd": "0.000117219",
+        "Xlfd": "0.047921256",
+        "Rkd": "0.009822918",
+        "Xlkd": "0.097868236",
+        "Rkqg": "50000",
+        "Xlkqg": "50000",
+        "RkqQ": "0.005334267",
+        "XlkqQ": "0.059027851",
+        "Rs_2": "0.000301",
+        "Xls_2": "0",
+        "Xd_2": "0.283875",
+        "Xdp_2": "0.041",
+        "Xdpp_2": "0.028895",
+        "Xq_2": "0.283875",
+        "Xqp_2": "0.056603",
+        "Xqpp_2": "0.028895",
+        "Td0p_2": "9.01",
+        "Td0pp_2": "0.045",
+        "Tq0p_2": "0.956",
+        "Tq0pp_2": "0.069",
+        "Control": "1",
+        "Tj": "5",
+        "Dm": "0",
+        "StartupType": "4",
+        "RampingTime": "0.06",
+        "V_mag": "1",
+        "V_ph": "8.092582389805873",
+        "AP": "150",
+        "RP": "10.551261791343547",
+        "source_resistance": "0.00001",
+        "s2m": "@index_23",
+        "l2n": "@index_2",
+        "BusType": "1",
+        "pf_P": "150",
+        "pf_Q": "100",
+        "pf_V": "1",
+        "pf_Theta": "0",
+        "pf_Vmin": "0.001",
+        "pf_Vmax": "10",
+        "pf_Qmin": "-200",
+        "pf_Qmax": "200",
+        "s2m_o": "#index_24",
+        "l2n_o": "#index_25",
+        "Ef0_o": "#index_26",
+        "Tm0_o": "#index_27",
+        "wr_o": "#index_5",
+        "theta_o": "",
+        "loadangle_o": "",
+        "loadangle_so": "",
+        "VT_o": "#index_28",
+        "IT_o": "#index_29",
+        "PT_o": "#index_7",
+        "QT_o": "#index_8",
+        "IT_inst": ""
+      },
+      "pins": {
+        "0": "14",
+        "2": "30",
+        "3": "",
+        "4": "82",
+        "5": "81"
+      },
+      "definition": "model/CloudPSS/SyncGeneratorRouter",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/SyncGeneratorRouter",
+      "status": "type end"
+    },
+    "/canvas_0_762": {
+      "label": "SyncGen-2",
+      "args": {
+        "Name": "Gen3",
+        "P": "4",
+        "Smva": "325",
+        "V": "7.967433714816837",
+        "freq": "50",
+        "R0": "10000",
+        "ParamType": "0",
+        "ModelType": "0",
+        "NIM": "1",
+        "Rs": "0.000301",
+        "Xls": "0",
+        "Xq": "0.283875",
+        "Xd": "0.283875",
+        "Rfd": "0.000117219",
+        "Xlfd": "0.047921256",
+        "Rkd": "0.009822918",
+        "Xlkd": "0.097868236",
+        "Rkqg": "50000",
+        "Xlkqg": "50000",
+        "RkqQ": "0.005334267",
+        "XlkqQ": "0.059027851",
+        "Rs_2": "0.000301",
+        "Xls_2": "0",
+        "Xd_2": "0.283875",
+        "Xdp_2": "0.041",
+        "Xdpp_2": "0.028895",
+        "Xq_2": "0.283875",
+        "Xqp_2": "0.056603",
+        "Xqpp_2": "0.028895",
+        "Td0p_2": "9.01",
+        "Td0pp_2": "0.045",
+        "Tq0p_2": "0.956",
+        "Tq0pp_2": "0.069",
+        "Control": "1",
+        "Tj": "5",
+        "Dm": "0",
+        "StartupType": "4",
+        "RampingTime": "0.06",
+        "V_mag": "1",
+        "V_ph": "4.883887197448028",
+        "AP": "90",
+        "RP": "-4.784365780812778",
+        "source_resistance": "0.00001",
+        "s2m": "@index_23",
+        "l2n": "@index_2",
+        "BusType": "1",
+        "pf_P": "90",
+        "pf_Q": "100",
+        "pf_V": "1",
+        "pf_Theta": "0",
+        "pf_Vmin": "0.001",
+        "pf_Vmax": "10",
+        "pf_Qmin": "-200",
+        "pf_Qmax": "200",
+        "s2m_o": "#index_31",
+        "l2n_o": "#index_32",
+        "Ef0_o": "#index_33",
+        "Tm0_o": "#index_34",
+        "wr_o": "#index_6",
+        "theta_o": "",
+        "loadangle_o": "",
+        "loadangle_so": "",
+        "VT_o": "#index_35",
+        "IT_o": "#index_36",
+        "PT_o": "#index_11",
+        "QT_o": "#index_12",
+        "IT_inst": ""
+      },
+      "pins": {
+        "0": "18",
+        "2": "37",
+        "3": "",
+        "4": "77",
+        "5": "78"
+      },
+      "definition": "model/CloudPSS/SyncGeneratorRouter",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/SyncGeneratorRouter",
+      "status": "type end"
+    },
+    "/canvas_0_766": {
+      "label": "SyncGen-3",
+      "args": {
+        "Name": "Gen1",
+        "P": "4",
+        "Smva": "325",
+        "V": "9.526279441628825",
+        "freq": "50",
+        "R0": "10000",
+        "ParamType": "0",
+        "ModelType": "0",
+        "NIM": "1",
+        "Rs": "0.000301",
+        "Xls": "0",
+        "Xq": "0.283875",
+        "Xd": "0.283875",
+        "Rfd": "0.000117219",
+        "Xlfd": "0.047921256",
+        "Rkd": "0.009822918",
+        "Xlkd": "0.097868236",
+        "Rkqg": "50000",
+        "Xlkqg": "50000",
+        "RkqQ": "0.005334267",
+        "XlkqQ": "0.059027851",
+        "Rs_2": "0.000301",
+        "Xls_2": "0",
+        "Xd_2": "0.283875",
+        "Xdp_2": "0.041",
+        "Xdpp_2": "0.028895",
+        "Xq_2": "0.283875",
+        "Xqp_2": "0.056603",
+        "Xqpp_2": "0.028895",
+        "Td0p_2": "9.01",
+        "Td0pp_2": "0.045",
+        "Tq0p_2": "0.956",
+        "Tq0pp_2": "0.069",
+        "Control": "1",
+        "Tj": "5",
+        "Dm": "0",
+        "StartupType": "4",
+        "RampingTime": "0.06",
+        "V_mag": "1",
+        "V_ph": "0",
+        "AP": "79.46701315213713",
+        "RP": "23.382885135525022",
+        "source_resistance": "0.00001",
+        "s2m": "@index_23",
+        "l2n": "@index_2",
+        "BusType": "2",
+        "pf_P": "90",
+        "pf_Q": "100",
+        "pf_V": "1",
+        "pf_Theta": "0",
+        "pf_Vmin": "0.001",
+        "pf_Vmax": "10",
+        "pf_Qmin": "-200",
+        "pf_Qmax": "200",
+        "s2m_o": "#index_38",
+        "l2n_o": "#index_39",
+        "Ef0_o": "#index_40",
+        "Tm0_o": "#index_3",
+        "wr_o": "#index_1",
+        "theta_o": "",
+        "loadangle_o": "",
+        "loadangle_so": "",
+        "VT_o": "#index_41",
+        "IT_o": "#index_42",
+        "PT_o": "#index_9",
+        "QT_o": "#index_10",
+        "IT_inst": ""
+      },
+      "pins": {
+        "0": "22",
+        "2": "4",
+        "3": "",
+        "4": "70",
+        "5": "71"
+      },
+      "definition": "model/CloudPSS/SyncGeneratorRouter",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/SyncGeneratorRouter",
+      "status": "type end"
+    },
+    "/canvas_0_770": {
+      "label": "newStepGen-1",
+      "args": {
+        "Name": "",
+        "V0": "0",
+        "V1": "1",
+        "Time": "1"
+      },
+      "pins": {
+        "0": "23"
+      },
+      "definition": "model/CloudPSS/_newStepGen",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newStepGen"
+    },
+    "/canvas_0_771": {
+      "label": "newStepGen-2",
+      "args": {
+        "Name": "",
+        "V0": "0",
+        "V1": "1",
+        "Time": "2"
+      },
+      "pins": {
+        "0": "2"
+      },
+      "definition": "model/CloudPSS/_newStepGen",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newStepGen"
+    },
+    "/canvas_0_805": {
+      "label": "EXST1_PTI-2",
+      "args": {
+        "Rc": "0",
+        "Xc": "0",
+        "TR": "0.01",
+        "TC": "1",
+        "TB": "10",
+        "KF": "0",
+        "TF": "1",
+        "KA": "200",
+        "TA": "0.015",
+        "VRMAX": "5",
+        "VRMIN": "-5",
+        "KC": "0",
+        "VIMAX": "0.1",
+        "VIMIN": "-0.1"
+      },
+      "pins": {
+        "0": "55",
+        "1": "56",
+        "2": "28",
+        "3": "29",
+        "4": "26",
+        "5": "81",
+        "6": "23",
+        "7": "54",
+        "8": "82"
+      },
+      "definition": "model/CloudPSS/_EXST1_PTI",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_EXST1_PTI"
+    },
+    "/canvas_0_806": {
+      "label": "newGain-2",
+      "args": {
+        "Name": "",
+        "G": "1"
+      },
+      "pins": {
+        "0": "54",
+        "1": "55"
+      },
+      "definition": "model/CloudPSS/_newGain",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newGain"
+    },
+    "/canvas_0_809": {
+      "label": "newLoopNode-2",
+      "args": {
+        "Name": "",
+        "Init": "1"
+      },
+      "pins": {
+        "0": "54"
+      },
+      "definition": "model/CloudPSS/_newLoopNode",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newLoopNode"
+    },
+    "/canvas_0_811": {
+      "label": "PSS1A-2",
+      "args": {
+        "T6": "0",
+        "Ks": "2",
+        "T5": "10",
+        "A1": "0",
+        "A2": "0",
+        "T1": "1",
+        "T2": "0.2",
+        "T3": "1",
+        "T4": "0.1",
+        "VSTMAX": "0.2",
+        "VSTMIN": "-0.2"
+      },
+      "pins": {
+        "0": "57",
+        "1": "2",
+        "2": "56"
+      },
+      "definition": "model/CloudPSS/_PSS1A",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_PSS1A"
+    },
+    "/canvas_0_813": {
+      "label": "newSum-2",
+      "args": {
+        "Name": "",
+        "A": "0",
+        "B": "0",
+        "C": "0",
+        "D": "1",
+        "E": "0",
+        "F": "-1",
+        "G": "0"
+      },
+      "pins": {
+        "3": "5",
+        "5": "62",
+        "7": "57"
+      },
+      "definition": "model/CloudPSS/_newSum",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newSum"
+    },
+    "/canvas_0_819": {
+      "label": "STEAM_GOV_1-2",
+      "args": {
+        "DB": "0",
+        "Kg": "6",
+        "TSR": "0",
+        "TSM": "0.075",
+        "P_up": "0.6786",
+        "P_down": "-1",
+        "Cmax": "0.9",
+        "Cmin": "0"
+      },
+      "pins": {
+        "0": "59",
+        "1": "63",
+        "2": "5",
+        "3": "2",
+        "4": "58"
+      },
+      "definition": "model/CloudPSS/_STEAM_GOV_1",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_STEAM_GOV_1"
+    },
+    "/canvas_0_820": {
+      "label": "STEAM_TUR_1-2",
+      "args": {
+        "K1": "0.2",
+        "K3": "0.4",
+        "K5": "0.4",
+        "K7": "0",
+        "K2": "0",
+        "K4": "0",
+        "K6": "0",
+        "K8": "0",
+        "T4": "0.3",
+        "T5": "10",
+        "T6": "0.6",
+        "T7": "0"
+      },
+      "pins": {
+        "0": "58",
+        "1": "5",
+        "2": "64",
+        "3": "27",
+        "4": "2",
+        "5": "59",
+        "6": "60",
+        "7": "61",
+        "8": "30"
+      },
+      "definition": "model/CloudPSS/_STEAM_TUR_1",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_STEAM_TUR_1"
+    },
+    "/canvas_0_823": {
+      "label": "NC-4",
+      "args": {
+        "Name": ""
+      },
+      "pins": {
+        "0": "60"
+      },
+      "definition": "model/CloudPSS/ElectricalLable",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/ElectricalLable"
+    },
+    "/canvas_0_825": {
+      "label": "NC-5",
+      "args": {
+        "Name": ""
+      },
+      "pins": {
+        "0": "61"
+      },
+      "definition": "model/CloudPSS/ElectricalLable",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/ElectricalLable"
+    },
+    "/canvas_0_831": {
+      "label": "newConstant-6",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "62"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_833": {
+      "label": "newConstant-7",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "63"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_835": {
+      "label": "newConstant-8",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "64"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_960": {
+      "label": "EXST1_PTI-3",
+      "args": {
+        "Rc": "0",
+        "Xc": "0",
+        "TR": "0.01",
+        "TC": "1",
+        "TB": "10",
+        "KF": "0",
+        "TF": "1",
+        "KA": "200",
+        "TA": "0.015",
+        "VRMAX": "5",
+        "VRMIN": "-5",
+        "KC": "0",
+        "VIMAX": "0.1",
+        "VIMIN": "-0.1"
+      },
+      "pins": {
+        "0": "66",
+        "1": "67",
+        "2": "41",
+        "3": "42",
+        "4": "40",
+        "5": "71",
+        "6": "23",
+        "7": "65",
+        "8": "70"
+      },
+      "definition": "model/CloudPSS/_EXST1_PTI",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_EXST1_PTI"
+    },
+    "/canvas_0_961": {
+      "label": "newGain-3",
+      "args": {
+        "Name": "",
+        "G": "1"
+      },
+      "pins": {
+        "0": "65",
+        "1": "66"
+      },
+      "definition": "model/CloudPSS/_newGain",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newGain"
+    },
+    "/canvas_0_964": {
+      "label": "newLoopNode-3",
+      "args": {
+        "Name": "",
+        "Init": "1"
+      },
+      "pins": {
+        "0": "66"
+      },
+      "definition": "model/CloudPSS/_newLoopNode",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newLoopNode"
+    },
+    "/canvas_0_966": {
+      "label": "PSS1A-3",
+      "args": {
+        "T6": "0",
+        "Ks": "2",
+        "T5": "10",
+        "A1": "0",
+        "A2": "0",
+        "T1": "1",
+        "T2": "0.2",
+        "T3": "1",
+        "T4": "0.1",
+        "VSTMAX": "0.2",
+        "VSTMIN": "-0.2"
+      },
+      "pins": {
+        "0": "68",
+        "1": "2",
+        "2": "67"
+      },
+      "definition": "model/CloudPSS/_PSS1A",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_PSS1A"
+    },
+    "/canvas_0_968": {
+      "label": "newSum-3",
+      "args": {
+        "Name": "",
+        "A": "0",
+        "B": "0",
+        "C": "0",
+        "D": "1",
+        "E": "0",
+        "F": "-1",
+        "G": "0"
+      },
+      "pins": {
+        "3": "1",
+        "5": "69",
+        "7": "68"
+      },
+      "definition": "model/CloudPSS/_newSum",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newSum"
+    },
+    "/canvas_0_972": {
+      "label": "newConstant-12",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "69"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_976": {
+      "label": "EXST1_PTI-4",
+      "args": {
+        "Rc": "0",
+        "Xc": "0",
+        "TR": "0.01",
+        "TC": "1",
+        "TB": "10",
+        "KF": "0",
+        "TF": "1",
+        "KA": "200",
+        "TA": "0.015",
+        "VRMAX": "5",
+        "VRMIN": "-5",
+        "KC": "0",
+        "VIMAX": "0.1",
+        "VIMIN": "-0.1"
+      },
+      "pins": {
+        "0": "73",
+        "1": "74",
+        "2": "35",
+        "3": "36",
+        "4": "33",
+        "5": "78",
+        "6": "23",
+        "7": "72",
+        "8": "77"
+      },
+      "definition": "model/CloudPSS/_EXST1_PTI",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_EXST1_PTI"
+    },
+    "/canvas_0_977": {
+      "label": "newGain-4",
+      "args": {
+        "Name": "",
+        "G": "1"
+      },
+      "pins": {
+        "0": "72",
+        "1": "73"
+      },
+      "definition": "model/CloudPSS/_newGain",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newGain"
+    },
+    "/canvas_0_980": {
+      "label": "newLoopNode-4",
+      "args": {
+        "Name": "",
+        "Init": "1"
+      },
+      "pins": {
+        "0": "73"
+      },
+      "definition": "model/CloudPSS/_newLoopNode",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newLoopNode"
+    },
+    "/canvas_0_982": {
+      "label": "PSS1A-4",
+      "args": {
+        "T6": "0",
+        "Ks": "2",
+        "T5": "10",
+        "A1": "0",
+        "A2": "0",
+        "T1": "1",
+        "T2": "0.2",
+        "T3": "1",
+        "T4": "0.1",
+        "VSTMAX": "0.2",
+        "VSTMIN": "-0.2"
+      },
+      "pins": {
+        "0": "75",
+        "1": "2",
+        "2": "74"
+      },
+      "definition": "model/CloudPSS/_PSS1A",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_PSS1A"
+    },
+    "/canvas_0_984": {
+      "label": "newSum-4",
+      "args": {
+        "Name": "",
+        "A": "0",
+        "B": "0",
+        "C": "0",
+        "D": "1",
+        "E": "0",
+        "F": "-1",
+        "G": "0"
+      },
+      "pins": {
+        "3": "6",
+        "5": "76",
+        "7": "75"
+      },
+      "definition": "model/CloudPSS/_newSum",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newSum"
+    },
+    "/canvas_0_988": {
+      "label": "newConstant-13",
+      "args": {
+        "Name": "",
+        "Value": "1"
+      },
+      "pins": {
+        "0": "76"
+      },
+      "definition": "model/CloudPSS/_newConstant",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_newConstant"
+    },
+    "/canvas_0_996": {
+      "label": "STEAM_GOV_1-3",
+      "args": {
+        "DB": "0",
+        "Kg": "6",
+        "TSR": "0",
+        "TSM": "0.075",
+        "P_up": "0.6786",
+        "P_down": "-1",
+        "Cmax": "0.9",
+        "Cmin": "0"
+      },
+      "pins": {
+        "0": "80",
+        "1": "45",
+        "2": "6",
+        "3": "2",
+        "4": "79"
+      },
+      "definition": "model/CloudPSS/_STEAM_GOV_1",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_STEAM_GOV_1"
+    },
+    "/canvas_0_997": {
+      "label": "STEAM_TUR_1-3",
+      "args": {
+        "K1": "0.2",
+        "K3": "0.4",
+        "K5": "0.4",
+        "K7": "0",
+        "K2": "0",
+        "K4": "0",
+        "K6": "0",
+        "K8": "0",
+        "T4": "0.3",
+        "T5": "10",
+        "T6": "0.6",
+        "T7": "0"
+      },
+      "pins": {
+        "0": "79",
+        "1": "6",
+        "2": "46",
+        "3": "34",
+        "4": "2",
+        "5": "80",
+        "6": "43",
+        "7": "44",
+        "8": "37"
+      },
+      "definition": "model/CloudPSS/_STEAM_TUR_1",
+      "context": {},
+      "props": {
+        "enabled": true
+      },
+      "rid": "model/CloudPSS/_STEAM_TUR_1"
+    }
+  },
+  "mappings": {
+    "in": {
+      "@index_2": 2,
+      "@index_23": 23
+    },
+    "out": {
+      "#index_1": 1,
+      "#index_3": 3,
+      "#index_5": 5,
+      "#index_6": 6,
+      "#index_7": 7,
+      "#index_8": 8,
+      "#index_9": 9,
+      "#index_10": 10,
+      "#index_11": 11,
+      "#index_12": 12,
+      "#index_13": 13,
+      "#index_24": 24,
+      "#index_25": 25,
+      "#index_26": 26,
+      "#index_27": 27,
+      "#index_28": 28,
+      "#index_29": 29,
+      "#index_31": 31,
+      "#index_32": 32,
+      "#index_33": 33,
+      "#index_34": 34,
+      "#index_35": 35,
+      "#index_36": 36,
+      "#index_38": 38,
+      "#index_39": 39,
+      "#index_40": 40,
+      "#index_41": 41,
+      "#index_42": 42
+    }
+  }
+}
